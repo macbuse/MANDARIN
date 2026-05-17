@@ -1,3 +1,4 @@
+#! /home/macbuse/miniconda3/bin/python3.11
 import re
 import os
 from gtts import gTTS
@@ -40,3 +41,12 @@ def extract_sentences_and_speak(text, output_dir="mandarin_audio"):
                 print(f"Saved: {filename} -> '{sentence}'")
             except Exception as e:
                 print(f"Error saving '{sentence}': {e}")
+
+if __name__ == "__main__":
+    # Example usage
+    markdown_text = """
+    这是第一句中文。 This is an English sentence.
+    这是第二句中文！ 这是第三句中文？ 
+    这是第四句中文，包含一些标点。
+    """
+    extract_sentences_and_speak(markdown_text)
