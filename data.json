@@ -1,5 +1,5 @@
 [
-{
+  {
     "hanzi": "朋友",
     "pinyin": "péng yǒu",
     "mp3": "audio/peng_you.mp3",
@@ -64,5 +64,335 @@
     "pinyin": "yī shēng",
     "mp3": "audio/yi_sheng.mp3",
     "translation": "doctor"
+  },
+  {
+    "hanzi": "医院",
+    "pinyin": "yī yuàn",
+    "mp3": "audio/yi_yuan.mp3",
+    "translation": "Hospital"
+  },
+  {
+    "hanzi": "好转",
+    "pinyin": "hǎo zhuǎn",
+    "mp3": "audio/hao_zhuan.mp3",
+    "translation": "get better"
+  },
+  {
+    "hanzi": "多保重",
+    "pinyin": "duō bǎo zhòng",
+    "mp3": "audio/duo_bao_zhong.mp3",
+    "translation": "Take care"
+  },
+  {
+    "hanzi": "牛肉",
+    "pinyin": "niú ròu",
+    "mp3": "audio/niu_rou.mp3",
+    "translation": "beef"
+  },
+  {
+    "hanzi": "外科",
+    "pinyin": "wài kē",
+    "mp3": "audio/wai_ke.mp3",
+    "translation": "surgical"
+  },
+  {
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "mp3": "audio/dan_xin.mp3",
+    "translation": "Worry"
+  },
+  {
+    "hanzi": "对健康",
+    "pinyin": "duì jiàn kāng",
+    "mp3": "audio/dui_jian_kang.mp3",
+    "translation": "to health"
+  },
+  {
+    "hanzi": "重症监护室",
+    "pinyin": "zhòng zhèng jiān hù shì",
+    "mp3": "audio/zhong_zheng_jian_hu_shi.mp3",
+    "translation": "intensive care unit"
+  },
+  {
+    "hanzi": "小扁豆",
+    "pinyin": "xiǎo biǎn dòu",
+    "mp3": "audio/xiao_bian_dou.mp3",
+    "translation": "lentils"
+  },
+  {
+    "hanzi": "吃太多盐",
+    "pinyin": "chī tài duō yán",
+    "mp3": "audio/chi_tai_duo_yan.mp3",
+    "translation": "eat too much salt"
+  },
+  {
+    "hanzi": "入院",
+    "pinyin": "rù yuàn",
+    "mp3": "audio/ru_yuan.mp3",
+    "translation": "Admission"
+  },
+  {
+    "hanzi": "腿疼",
+    "pinyin": "tuǐ téng",
+    "mp3": "audio/tui_teng.mp3",
+    "translation": "Leg pain"
+  },
+  {
+    "hanzi": "住院部",
+    "pinyin": "zhù yuàn bù",
+    "mp3": "audio/zhu_yuan_bu.mp3",
+    "translation": "Inpatient department"
+  },
+  {
+    "hanzi": "姜和蒜",
+    "pinyin": "jiāng hé suàn",
+    "mp3": "audio/jiang_he_suan.mp3",
+    "translation": "ginger and garlic"
+  },
+  {
+    "hanzi": "打算",
+    "pinyin": "dǎ suàn",
+    "mp3": "audio/da_suan.mp3",
+    "translation": "Intend"
+  },
+  {
+    "hanzi": "休息",
+    "pinyin": "xiū xī",
+    "mp3": "audio/xiu_xi.mp3",
+    "translation": "rest"
+  },
+  {
+    "hanzi": "动手术",
+    "pinyin": "dòng shǒu shù",
+    "mp3": "audio/dong_shou_shu.mp3",
+    "translation": "surgery"
+  },
+  {
+    "hanzi": "点心",
+    "pinyin": "diǎn xīn",
+    "mp3": "audio/dian_xin.mp3",
+    "translation": "dessert"
+  },
+  {
+    "hanzi": "水果",
+    "pinyin": "shuǐ guǒ",
+    "mp3": "audio/shui_guo.mp3",
+    "translation": "fruit"
+  },
+  {
+    "hanzi": "治疗",
+    "pinyin": "zhì liáo",
+    "mp3": "audio/zhi_liao.mp3",
+    "translation": "treat"
+  },
+  {
+    "hanzi": "更喜欢",
+    "pinyin": "gèng xǐ huān",
+    "mp3": "audio/geng_xi_huan.mp3",
+    "translation": "prefer"
+  },
+  {
+    "hanzi": "住院",
+    "pinyin": "zhù yuàn",
+    "mp3": "audio/zhu_yuan.mp3",
+    "translation": "Hospitalized"
+  },
+  {
+    "hanzi": "探望",
+    "pinyin": "tàn wàng",
+    "mp3": "audio/tan_wang.mp3",
+    "translation": "visit"
+  },
+  {
+    "hanzi": "一点儿",
+    "pinyin": "yì diǎn ér",
+    "mp3": "audio/yi_dian_er.mp3",
+    "translation": "a little"
+  },
+  {
+    "hanzi": "好好休息",
+    "pinyin": "hǎo hǎo xiū xī",
+    "mp3": "audio/hao_hao_xiu_xi.mp3",
+    "translation": "have a good rest"
+  },
+  {
+    "hanzi": "我的",
+    "pinyin": "wǒ de",
+    "mp3": "audio/wo_de.mp3",
+    "translation": "mine"
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "mp3": "audio/ming_tian.mp3",
+    "translation": "tomorrow"
+  },
+  {
+    "hanzi": "我们",
+    "pinyin": "wǒ men",
+    "mp3": "audio/wo_men.mp3",
+    "translation": "us"
+  },
+  {
+    "hanzi": "两个",
+    "pinyin": "liǎng gè",
+    "mp3": "audio/liang_ge.mp3",
+    "translation": "two"
+  },
+  {
+    "hanzi": "很严重",
+    "pinyin": "hěn yán zhòng",
+    "mp3": "audio/hen_yan_zhong.mp3",
+    "translation": "very serious"
+  },
+  {
+    "hanzi": "康复",
+    "pinyin": "kāng fù",
+    "mp3": "audio/kang_fu.mp3",
+    "translation": "recovery"
+  },
+  {
+    "hanzi": "吃药",
+    "pinyin": "chī yào",
+    "mp3": "audio/chi_yao.mp3",
+    "translation": "take medicine"
+  },
+  {
+    "hanzi": "重病",
+    "pinyin": "zhòng bìng",
+    "mp3": "audio/zhong_bing.mp3",
+    "translation": "Serious illness"
+  },
+  {
+    "hanzi": "身体",
+    "pinyin": "shēn tǐ",
+    "mp3": "audio/shen_ti.mp3",
+    "translation": "Body"
+  },
+  {
+    "hanzi": "护士",
+    "pinyin": "hù shì",
+    "mp3": "audio/hu_shi.mp3",
+    "translation": "Nurse"
+  },
+  {
+    "hanzi": "内科",
+    "pinyin": "nèi kē",
+    "mp3": "audio/nei_ke.mp3",
+    "translation": "Internal Medicine"
+  },
+  {
+    "hanzi": "果物",
+    "pinyin": "guǒ wù",
+    "mp3": "audio/guo_wu.mp3",
+    "translation": "fruit"
+  },
+  {
+    "hanzi": "他们",
+    "pinyin": "tā men",
+    "mp3": "audio/ta_men.mp3",
+    "translation": "them"
+  },
+  {
+    "hanzi": "祝你早日康复",
+    "pinyin": "zhù nǐ zǎo rì kāng fù",
+    "mp3": "audio/zhu_ni_zao_ri_kang_fu.mp3",
+    "translation": "wish you a speedy recovery"
+  },
+  {
+    "hanzi": "但是",
+    "pinyin": "dàn shì",
+    "mp3": "audio/dan_shi.mp3",
+    "translation": "but"
+  },
+  {
+    "hanzi": "猪肉",
+    "pinyin": "zhū ròu",
+    "mp3": "audio/zhu_rou.mp3",
+    "translation": "pork"
+  },
+  {
+    "hanzi": "开心",
+    "pinyin": "kāi xīn",
+    "mp3": "audio/kai_xin.mp3",
+    "translation": "happy"
+  },
+  {
+    "hanzi": "算术",
+    "pinyin": "suàn shù",
+    "mp3": "audio/suan_shu.mp3",
+    "translation": "arithmetic"
+  },
+  {
+    "hanzi": "病院",
+    "pinyin": "bìng yuàn",
+    "mp3": "audio/bing_yuan.mp3",
+    "translation": "hospital"
+  },
+  {
+    "hanzi": "运动",
+    "pinyin": "yùn dòng",
+    "mp3": "audio/yun_dong.mp3",
+    "translation": "sports"
+  },
+  {
+    "hanzi": "很好",
+    "pinyin": "hěn hǎo",
+    "mp3": "audio/hen_hao.mp3",
+    "translation": "very good"
+  },
+  {
+    "hanzi": "法国",
+    "pinyin": "fǎ guó",
+    "mp3": "audio/fa_guo.mp3",
+    "translation": "France"
+  },
+  {
+    "hanzi": "跑步",
+    "pinyin": "pǎo bù",
+    "mp3": "audio/pao_bu.mp3",
+    "translation": "running"
+  },
+  {
+    "hanzi": "大葱",
+    "pinyin": "dà cōng",
+    "mp3": "audio/da_cong.mp3",
+    "translation": "green onions"
+  },
+  {
+    "hanzi": "菠菜",
+    "pinyin": "bō cài",
+    "mp3": "audio/bo_cai.mp3",
+    "translation": "spinach"
+  },
+  {
+    "hanzi": "大蒜",
+    "pinyin": "dà suàn",
+    "mp3": "audio/da_suan.mp3",
+    "translation": "garlic"
+  },
+  {
+    "hanzi": "手術",
+    "pinyin": "shǒu shù",
+    "mp3": "audio/shou_shu.mp3",
+    "translation": "Operation"
+  },
+  {
+    "hanzi": "洋葱",
+    "pinyin": "yáng cōng",
+    "mp3": "audio/yang_cong.mp3",
+    "translation": "onion"
+  },
+  {
+    "hanzi": "脚疼",
+    "pinyin": "jiǎo téng",
+    "mp3": "audio/jiao_teng.mp3",
+    "translation": "Feet hurt"
+  },
+  {
+    "hanzi": "健康",
+    "pinyin": "jiàn kāng",
+    "mp3": "audio/jian_kang.mp3",
+    "translation": "healthy"
   }
 ]

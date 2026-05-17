@@ -63,7 +63,7 @@ if __name__ == "__main__":
         raw_vocabulary = f.read().splitlines()
 
     # Limit to first 100 for testing; remove or adjust as needed
-    raw_vocabulary = raw_vocabulary[:10]  
+    raw_vocabulary = raw_vocabulary[:100]  
     json_filename = "data.json"
     
     # 1. Load existing data if it exists to preserve current state
