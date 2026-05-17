@@ -61,9 +61,10 @@ def generate_card_data(hanzi_text):
 if __name__ == "__main__":
     with open('./extracted_sentences.md','r') as f:
         raw_vocabulary = f.read().splitlines()
+    print(f"Loaded {len(raw_vocabulary)} raw vocabulary items from extracted_sentences.md.")
 
     # Limit to first 100 for testing; remove or adjust as needed
-    raw_vocabulary = raw_vocabulary[:100]  
+    raw_vocabulary = raw_vocabulary[:250]  
     json_filename = "data.json"
     
     # 1. Load existing data if it exists to preserve current state
@@ -98,6 +99,7 @@ if __name__ == "__main__":
         compiled_dataset.append(card_node)
         existing_hanzi.add(phrase) # Track in loop memory
         new_cards_added += 1
+        print(f"✓ Added '{phrase}' to dataset. Total new cards: {new_cards_added}")
 
     # 4. Atomically dump the expanded list back to disk
     if new_cards_added > 0:

@@ -1124,3 +1124,127 @@ In Western contexts, we often say "Get well soon." In Mandarin, there are specif
 * **Rest:** *Kyūseki* / *Yasumi* (JP) vs. **Xiūxi** (CN).
 
 The characters for surgery (**手術**) and rest (**休息**) are completely identical in both languages. If you write down **休息** on a piece of paper, both a Chinese speaker and a Japanese speaker will instantly know you mean "time to recuperate."
+
+
+---
+
+## More food
+
+
+Here are the sentences in a clean, readable format for your review:
+
+1. **我喜欢吃鸡肉和面条。**
+* *Pinyin:* Wǒ xǐhuan chī jīròu hé miàntiáo.
+* *Translation:* I like to eat chicken and noodles.
+
+
+2. **这个菜太辣了，我需要一杯水。**
+* *Pinyin:* Zhège cài tài là le, wǒ xūyào yī bēi shuǐ.
+* *Translation:* This dish is too spicy, I need a glass of water.
+
+
+3. **我想点一个炒饭和一个汤。**
+* *Pinyin:* Wǒ xiǎng diǎn yī gè chǎofàn hé yī gè tāng.
+* *Translation:* I want to order a fried rice and a soup.
+
+
+4. **我不吃肉，我吃素。**
+* *Pinyin:* Wǒ bù chī ròu, wǒ chī sù.
+* *Translation:* I don't eat meat, I am a vegetarian.
+
+
+5. **这里的服务员很热情，菜也好吃。**
+* *Pinyin:* Zhèlǐ de fúwùyuán hěn rèqíng, cài yě hǎochī.
+* *Translation:* The waiter here is very welcoming, and the food is delicious.
+
+
+6. **你喜欢吃米饭还是面条？**
+* *Pinyin:* Nǐ xǐhuan chī mǐfàn háishì miàntiáo?
+* *Translation:* Do you like to eat rice or noodles?
+
+
+7. **服务员，请给我菜单。**
+* *Pinyin:* Fúwùyuán, qǐng gěi wǒ càidān.
+* *Translation:* Waiter, please give me the menu.
+
+
+8. **我不喜欢喝太甜的饮料。**
+* *Pinyin:* Wǒ bù xǐhuan hē tài tián de yǐnliào.
+* *Translation:* I don't like to drink beverages that are too sweet.
+
+
+9. **这个水果非常新鲜。**
+* *Pinyin:* Zhège shuǐguǒ fēicháng xīnxian.
+* *Translation:* This fruit is very fresh.
+
+
+10. **买单，一共多少钱？**
+* *Pinyin:* Mǎidān, yīgòng duōshǎo qián?
+* *Translation:* The bill, please. How much is it in total?
+
+---
+
+Here are 10 practical sentences about the weather, ranging from daily observations to expressing preferences about the seasons:
+
+1. **今天天气很好，阳光明媚。**
+* *Pinyin:* Jīntiān tiānqì hěn hǎo, yángguāng míngmèi.
+* *Translation:* The weather is very good today, it is bright and sunny.
+
+
+2. **明天会下大雨，别忘了带伞。**
+* *Pinyin:* Míngtiān huì xià dàyǔ, bié wàngle dài sǎn.
+* *Translation:* It will rain heavily tomorrow, don't forget to bring an umbrella.
+
+
+3. **外面太冷了，你需要穿一件大衣。**
+* *Pinyin:* Wàimiàn tài lěng le, nǐ xūyào chuān yī jiàn dàyī.
+* *Translation:* It is too cold outside, you need to wear a coat.
+
+
+4. **刮风了，好像快要下雪了。**
+* *Pinyin:* Guāfēng le, hǎoxiàng kuàiyào xiàxuě le.
+* *Translation:* The wind is blowing, it looks like it's about to snow.
+
+
+5. **夏天非常热，我天天想游泳。**
+* *Pinyin:* Xiàtiān fēicháng rè, wǒ tiāntiān xiǎng yóuyǒng.
+* *Translation:* Summer is extremely hot, I want to go swimming every day.
+
+
+6. **我不喜欢阴天，让人觉得很累。**
+* *Pinyin:* Wǒ bù xǐhuan yīntiān, ràng rén juéde hěn lèi.
+* *Translation:* I don't like overcast days, they make people feel tired.
+
+
+7. **昨天的风沙很大，空气不太好。**
+* *Pinyin:* Zuótiān de fēngshā hěn dà, kōngqì bù tài hǎo.
+* *Translation:* Yesterday was very windy and dusty; the air quality wasn't great.
+
+
+8. **这里的秋天最舒服，不冷也不热。**
+* *Pinyin:* Zhèlǐ de qiūtiān zuì shūfu, bù lěng yě bù rè.
+* *Translation:* Autumn here is the most comfortable—neither cold nor hot.
+
+
+9. **雾很大，开车的时候要小心。**
+* *Pinyin:* Wù hěn dà, kāichē de shíhou yào xiǎoxīn.
+* *Translation:* The fog is very thick; be careful when driving.
+
+
+10. **听说下午天气会转晴。**
+* *Pinyin:* Tīngshuō xiàwǔ tiānqì huì zhuǎn qíng.
+* *Translation:* I heard that the weather will clear up/become sunny this afternoon.
+
+
+
+---
+
+### **A Quick Grammar Note for Your Studies**
+
+Notice the structure in sentence #4: **快要……了 (kuàiyào... le)**.
+This is a standard pattern used to indicate that an event is about to happen imminently (*"about to/soon"*).
+
+* **快要**下雪**了** (It's about to snow.)
+* 火车**快要**走**了** (The train is about to leave.)
+
+When feeding these into your parser, the text length is slightly longer than the single food items, which will be a great test for how your CSS text-wrapping and container dimensions handle full punctuation blocks!
