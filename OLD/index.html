@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,15 +55,11 @@
         #translation {
             font-size: 1.5rem;
             color: var(--text-translation);
-            margin: 0;
+            margin: 1.5rem 0 0 0;
             min-height: 2rem;
             font-style: italic;
-            opacity: 0;
-            transition: opacity 0.2s ease-in-out;
-        }
-
-        #translation.visible {
-            opacity: 1;
+            /* Using display state to eliminate layout collisions */
+            display: none; 
         }
 
         #controls {
@@ -127,6 +123,7 @@
         let flashcards = [];
         let currentCard = null;
 
+        // Strict Node Assignments
         const hanziEl = document.getElementById('hanzi');
         const pinyinEl = document.getElementById('pinyin');
         const translationEl = document.getElementById('translation');
@@ -147,24 +144,21 @@
             }
         }
 
-
+        function playCard(card) {
+            if (!card) return;
             
-
-	function playCard(card) {
-	    if (!card) return;
-	    
-	    // 1. Assign each data field strictly to its own separate element
-	    hanziEl.textContent = card.hanzi;
-	    pinyinEl.textContent = card.pinyin;
-	    translationEl.textContent = card.translation || "No translation found";
-	    
-	    // 2. Explicitly keep the translation hidden upon loading
-	    translationEl.classList.remove('visible');
-	    
-	    // 3. Reset and trigger the audio stream
-	    audioPlayer.src = card.mp3;
-	    audioPlayer.play().catch(e => console.log("Audio playback waiting for click."));
-	}
+            // Map values directly to explicit DOM destinations
+            hanziEl.textContent = card.hanzi;
+            pinyinEl.textContent = card.pinyin;
+            translationEl.textContent = card.translation || "No translation found";
+            
+            // Physically pull the translation out of rendering flow on load
+            translationEl.style.display = 'none';
+            
+            // Run sound assets
+            audioPlayer.src = card.mp3;
+            audioPlayer.play().catch(e => console.log("Playback waiting for user gesture context."));
+        }
 
         function triggerNextCard() {
             if (flashcards.length === 0) return;
@@ -173,9 +167,9 @@
             playCard(currentCard);
         }
 
-        // Event Listeners
+        // Action Handlers
         document.getElementById('btn-reveal').addEventListener('click', () => {
-            translationEl.classList.add('visible');
+            translationEl.style.display = 'block';
         });
 
         document.getElementById('btn-repeat').addEventListener('click', () => {
@@ -193,7 +187,7 @@
             hanziEl.textContent = "Session Ended";
             pinyinEl.textContent = "";
             translationEl.textContent = "";
-            translationEl.classList.remove('visible');
+            translationEl.style.display = 'none';
             audioPlayer.src = "";
         });
 

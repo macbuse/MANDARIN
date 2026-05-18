@@ -1247,4 +1247,119 @@ This is a standard pattern used to indicate that an event is about to happen imm
 * **快要**下雪**了** (It's about to snow.)
 * 火车**快要**走**了** (The train is about to leave.)
 
-When feeding these into your parser, the text length is slightly longer than the single food items, which will be a great test for how your CSS text-wrapping and container dimensions handle full punctuation blocks!
+---
+
+Duolingo is brilliant at keeping a streak alive through gamification, but its biggest flaw for serious language learners is the lack of control over the curriculum. Spending weeks translating surreal sentences like *"The bear is drinking milk"* or *"The turtle wears shoes"* is incredibly frustrating when your actual goal is to have authentic, fluid interactions with human beings.
+
+By building your own automaton, you have bypassed the fluff completely. You can now curate phrases that map directly to the **pragmatic structures of human conversation**.
+
+To help you build out your personalized deck, here is a framework of high-utility interaction patterns in Mandarin, categorized by how native speakers actually navigate social spaces.
+
+---
+
+## 1. The Art of Social Lubricant (Politeness & Transitions)
+
+In Mandarin, smooth interaction relies heavily on tiny transition words that soften your approach or acknowledge a favor.
+
+* **麻烦你了。**
+* *Pinyin:* Máfan nǐ le.
+* *Translation:* "Sorry to trouble you / Thank you for your trouble."
+* *Usage:* Use this *after* someone helps you (e.g., a waiter bringing a modified dish, a stranger giving directions). It is much deeper and more appreciative than a standard *Xièxie*.
+
+
+* **请问……**
+* *Pinyin:* Qǐngwèn...
+* *Usage:* "Excuse me, may I ask..." Crucial for interrupting someone politely before launching into a question.
+
+
+* **不好意思，让一下。**
+* *Pinyin:* Bù hǎoyìsi, ràng yí xià.
+* *Translation:* "Excuse me, please let me through."
+* *Usage:* Navigating through crowds, trains, or narrow aisles.
+
+
+
+---
+
+## 2. Managing the Conversation Flow (The "Safety Valve" Phrases)
+
+When speaking with native speakers, they will often get excited and accelerate their speech. You need precise phrases to guide the speed of the interaction without breaking the momentum.
+
+* **不好意思，请你说得慢一点。**
+* *Pinyin:* Bù hǎoyìsi, qǐng nǐ shuō de màn yìdiǎn.
+* *Translation:* "I'm sorry, please speak a little slower."
+
+
+* **这个用中文怎么说？**
+* *Pinyin:* Zhège yòng Zhōngwén zěnme shuō?
+* *Translation:* "How do you say this in Chinese?"
+* *Usage:* Perfect for pointing at an object or gesturing to fill a vocabulary gap mid-sentence.
+
+
+* **你听得懂我的意思吗？**
+* *Pinyin:* Nǐ tīng de dǒng wǒ de yìsi ma?
+* *Translation:* "Do you understand what I mean?" (Literally: "Can you listen and comprehend my meaning?")
+
+
+
+---
+
+## 3. Casual Socializing & Making Plans
+
+If you are meeting people for coffee, dinner, or a casual get-together, these structural frames are incredibly common:
+
+* **你今天/明天有什么安排？**
+* *Pinyin:* Nǐ jīntiān/míngtiān yǒu shénme ānpái?
+* *Translation:* "What are your plans for today/tomorrow?"
+
+
+* **我们改天再约吧。**
+* *Pinyin:* Wǒmen gǎitiān zài yuē ba.
+* *Translation:* "Let’s meet up/raincheck another day."
+* *Usage:* A very natural way to wrap up a conversation or defer a plan politely.
+
+
+* **你顺路吗？我们可以一起走。**
+* *Pinyin:* Nǐ shùnlù ma? Wǒmen kěyǐ yìqǐ zǒu.
+* *Translation:* "Is it on your way? We can walk/go together."
+
+
+
+---
+
+## 4. Hosting & Guest Etiquette
+
+If you are inviting someone over or interacting in a host/guest dynamic, Mandarin utilizes specific polite imperatives:
+
+* **别客气，当自己家一样。**
+* *Pinyin:* Bié kèqi, dāng zìjǐ jiā yíyàng.
+* *Translation:* "Don't be formal, make yourself at home."
+
+
+* **请坐，你喝点什么？**
+* *Pinyin:* Qǐng zuò, nǐ hē diǎn shénme?
+* *Translation:* "Please sit, what would you like to drink?"
+
+
+* **你太客气了，不用带东西！**
+* *Pinyin:* Nǐ tài kèqi le, búyòng dài dōngxi!
+* *Translation:* "You are too kind, you didn't need to bring a gift!"
+
+
+
+---
+
+### 💡 Linguistic Shortcut: The Power of Verb-Complement Structures
+
+You will notice phrases like **听得懂 (tīng de dǒng)**. This is a *potential complement* structure:
+
+
+$$\text{Verb} + \text{得 (de)} + \text{Result/Direction}$$
+
+
+It means "have the capability to achieve the result by doing the action."
+
+* **听得懂** = Can listen and understand.
+* **听不懂** = Can listen, but *cannot* understand.
+* **看得到** = Can look and successfully see it.
+

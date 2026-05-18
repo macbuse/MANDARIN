@@ -46,7 +46,7 @@
         }
 
         #pinyin-text {
-            font-size: 2.2rem;
+            font-size: 1.8rem;
             color: var(--text-pinyin);
             margin: 0 0 1.5rem 0;
             min-height: 2.5rem;
@@ -109,8 +109,8 @@
 
 <div id="flashcard" class="card">
     <!-- Front/Back structural components collapsed into a scannable uniform display -->
-    <h1 id="pinyin-text">--</h1>
-    <p id="hanzi-text">--</p>
+    <h1 id="hanzi-text">--</h1>
+    <p id="pinyin-text">--</p>
     <p id="english-text">--</p>
 </div>
 
@@ -125,17 +125,15 @@
 let flashcards = [];
 let currentIndex = 0;
 let currentAudio = null;
-let audioTimeout = null; // Tracks our delay timer
-const playbackSpeed = 0.7;
 
+// 1. Fetch the master JSON populated by your Python script
 async function initApp() {
     try {
         const response = await fetch('mandarin_flashcards.json');
         flashcards = await response.json();
         
         if (flashcards.length > 0) {
-            // Initial load executes immediately without delay
-            showCard(currentIndex, true); 
+            showCard(currentIndex);
         } else {
             console.error("Flashcard deck is empty.");
         }
@@ -144,42 +142,34 @@ async function initApp() {
     }
 }
 
-function showCard(index, autoPlayWithDelay = false) {
-    // Clear any pending audio timer from a previous card skip
-    if (audioTimeout) {
-        clearTimeout(audioTimeout);
-    }
-
+// 2. Render the flashcard elements to the screen safely
+function showCard(index) {
     const card = flashcards[index];
     
+    // Core structural target correction applied below
     document.getElementById('hanzi-text').innerText = card.hanzi;
     document.getElementById('pinyin-text').innerText = card.pinyin;
     document.getElementById('english-text').innerText = card.english;
     
-    // Hide meaning components initially
+    // Hide the meaning elements at first glance
     document.getElementById('pinyin-text').style.visibility = 'hidden';
     document.getElementById('english-text').style.visibility = 'hidden';
     
+    // Pre-load the corresponding audio file path mapping
     if (card.audio_src) {
         currentAudio = new Audio(card.audio_src);
         document.getElementById('btn-repeat').disabled = false;
-        
-        // Trigger the delayed audio engine if coming from the 'Next' event
-        if (autoPlayWithDelay) {
-            audioTimeout = setTimeout(() => {
-                playAudio();
-            }, 500); // 500ms delay. Adjust this value to make it shorter or longer.
-        }
     } else {
         currentAudio = null;
         document.getElementById('btn-repeat').disabled = true;
     }
 }
 
+// 3. Audio runtime execute engine
 function playAudio() {
     if (currentAudio) {
         currentAudio.currentTime = 0; 
-        currentAudio.play().catch(err => console.log("Audio playback configuration note:", err));
+        currentAudio.play().catch(err => console.log("Audio play blocked until interaction:", err));
     }
 }
 
@@ -189,8 +179,7 @@ function playAudio() {
 document.getElementById('btn-reveal').addEventListener('click', () => {
     document.getElementById('pinyin-text').style.visibility = 'visible';
     document.getElementById('english-text').style.visibility = 'visible';
-    // If you already played it on 'Next', this safely re-plays it or plays it if missed
-    playAudio(); 
+    playAudio();
 });
 
 // Repeat Audio Button
@@ -203,8 +192,7 @@ document.getElementById('btn-next').addEventListener('click', () => {
     if (flashcards.length === 0) return;
     
     currentIndex = (currentIndex + 1) % flashcards.length;
-    // Pass 'true' here to authorize the audio delay engine
-    showCard(currentIndex, true);
+    showCard(currentIndex);
 });
 
 // Exit Button
@@ -213,6 +201,7 @@ document.getElementById('btn-exit').addEventListener('click', () => {
     window.location.reload(); 
 });
 
+// Kick off app loop execution
 initApp();
 </script>
 
