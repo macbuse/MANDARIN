@@ -23,3 +23,18 @@
 给你钱。 | Gěi nǐ qián. | Here is the money. (If using physical cash) | shopping
 你扫我，还是我扫你？ | Nǐ sǎo wǒ, háishi wǒ sǎo nǐ? | Will you scan my QR, or should I scan yours? | shopping
 我扫你吧。 | Wǒ sǎo nǐ ba. | I'll scan you. | shopping
+### Work & Office
+* 我刚刚给你发了一封邮件。 | Wǒ gānggāng gěi nǐ fāle yī fēng yóujiàn. | I just sent you an email. | work
+* 请查收附件中的报告。 | Qǐng cháshōu fùjiàn zhōng de bàogào. | Please find the report in the attachment. | work
+* 我晚一点回你的邮件。 | Wǒ wǎn yīdiǎn huí nǐ de yóujiàn. | I will reply to your email a bit later. | work
+* 我收到你的邮件了。 | Wǒ shōudào nǐ de yóujiàn le. | I got your email. (Literally: I have received your email.) | work
+* 我明天回你的邮件。 | Wǒ míngtiān huí nǐ de yóujiàn. | I'll answer your email tomorrow. | work
+* 我可以用邮件把文件发给你吗？ | Wǒ kěyǐ yòng yóujiàn bǎ wénjiàn fā gěi nǐ ma? | Can I send you the file by email? | work
+* 我们今天几点结束？ | Wǒmen jīntiān jǐ diǎn jiéshù? | What time will we finish today? | work
+* 我们明天几点开始？ | Wǒmen míngtiān jǐ diǎn kāishǐ? | What time will we start tomorrow? | work
+* 明天早上你想去喝杯咖啡吗？ | Míngtiān zǎoshang nǐ xiǎng qù hē bēi kāfēi ma? | Do you want to go for coffee tomorrow morning? | work
+
+### Weather & Environment
+* 六月的合肥热得像个火炉。 | Liùyuè de Héféi rè de xiàng gè huǒlú. | June in Hefei is as hot as an oven/furnace. | weather
+* 格勒诺布尔的夏天太闷热了。 | Gélènuòbù'ěr de xiàtiān tài mēnrè le. | Grenoble's summer is way too hot and muggy. | weather
+* 明天会更热，气温要飙升。 | Míngtiān huì gèng rè, qìwēn yào biāoshēng. | Tomorrow will be even hotter; the temperature is going to soar. | weather

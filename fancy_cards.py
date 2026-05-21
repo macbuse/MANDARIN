@@ -116,8 +116,10 @@ async def main():
         # Skip if this phrase already exists in the master JSON database
         if hanzi in existing_hanzi:
             continue
-            
-        clean_hanzi = "".join([c for c in hanzi if c not in "？。！,?!"])
+        print(f"Found new phrase: {hanzi} (Pinyin: {item['pinyin']})")
+             # Strip leading markdown bullets/spaces, then filter out punctuation
+        text_to_clean = hanzi.lstrip("* ").strip()
+        clean_hanzi = "".join([c for c in text_to_clean if c not in "？。！，,?!"])
         print(f"Processing new entry: {hanzi}")
         
         # Try Forvo, then Fallback
